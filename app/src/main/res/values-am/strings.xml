@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Contact Manager</string>
+    <string name="title_activity_contact_manager">የስልክ ኮንታክቶች</string>
+
+    <!-- email_destination_dialog -->
+    <string name="email_destination_confirmation">Email Confirmation:</string>
+    <string name="email_destination">እባክዎ የኢሜይል አድራሻውን ያስገቡ:</string>
+    <string name="btncancel">ሰርዝ</string>
+    <string name="btncontinue">ቀጥል</string>
+
+    <!-- activity_call_setting -->
+    <string name="title_activity_call_setting">የጥሪ መረጃ ማስተካከያ</string>
+    <string name="title_backup_selected_contacts">የተመረጡትን ኮንታክቶች</string>
+    <string name="title_backup_all_contacts">ሁሉንም ኮንታክቶች</string>
+    <string name="title_add_number">ቁጥር ጨምር</string>
+    <string name="title_add_contact">ኮንታክት ጨምር</string>
+
+    <!-- activity_sms_setting -->
+    <string name="title_activity_sms_setting">SMS Setting</string>
+    <string name="title_activity_about">ስለአዘጋጁ</string>
+    <string name="title_activity_setting">ማስተካከያ</string>
+
+    <!-- call_setting_edit_dialog -->
+    <string name="block_contact">ግንኙነት ከልክል</string>
+    <string name="block_for_how_long">ለምን ያህል ቀናት የከልከል?</string>
+    <string name="block_for_how_long_default">ሁልጊዜም</string>
+    <string name="clear_call_log">የስልክ ጥሪ መረጃዎች አጥፋ</string>
+    <string name="clear_for_how_long">ለምን ያህል ቀናት የከልከል?</string>
+    <string name="clear_for_how_long_default">ሁልጊዜም</string>
+
+    <!-- call_setting_delete_dialog -->
+    <string name="delete_confirmation">እርግጠኛ ነዎት ይጥፋ ?</string>
+    <string name="title_clear_log">የስልክ ጥሪ መረጃዎች አጥፋ</string>
+    <string name="clear_sms_log">Clear SMS Log</string>
+    <string name="home_developed_by">አዘጋጅ: BT IT Solutions (+251 911 84 20 52)</string>
+    <string name="btn_setting">ማስተካከያ</string>
+    <string name="btn_contacts">የኮንታክቶች መጠባበቂያ መያዣ</string>
+    <string name="btn_calls">ስልክ ጥሪዎች መከታተያ</string>
+
+    <!-- setting_dialog -->
+    <string name="setting_lblamharic">አማርኛ</string>
+    <string name="setting_lblenglish">English</string>
+    <string name="setting_btnSave">አስቀምጥ</string>
+
+    <!-- about_dialog -->
+    <string name="btn_about">ስለአዘጋጁ</string>
+    <string name="about_lblheader">BT IT Solutions</string>
+    <string name="About_lblOurServices">የምንሰጣቸው አገልግሎቶች:</string>
+    <string name="About_lblConsultancy">  - የአይቲ ነክ ስራዎች ማማከር</string>
+    <string name="About_lblWebsite">  - ዌብስይትና የተለያዩ ፕሮግራሞች ማልማት</string>
+    <string name="About_lblMobile">  - የሞባይል ፕሮግራሞች ማልማት</string>
+    <string name="About_lblTraining">  - የፕሮግራሚንግ ስልጠና በግል</string>
+    <string name="About_lblOurAddress">አድራሻችን:</string>
+    <string name="About_lblCity">  - አዲስ አበባ, ኢትዮጵያ</string>
+    <string name="About_lblArea">  - ሜክሲኮ አካባቢ, ኬ ኬር ህንጻ</string>
+    <string name="About_lblMobileNumber">  - +251 911 84 20 52</string>
+
+    <string name="action_settings">ማስተካከያ</string>
+
+    <string name="splash_greeting">እንኳን ደህና መጡ ወደ eContacts</string>
+    <string name="splash_company">አዘጋጅ: BT IT Solutions (+251 911 84 20 52)</string>
+</resources>

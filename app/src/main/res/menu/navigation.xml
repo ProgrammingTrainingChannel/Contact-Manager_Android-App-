@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_backup_all_contacts"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_backup_all_contacts" />
+
+    <item
+        android:id="@+id/navigation_backup_selected_contacts"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_backup_selected_contacts" />
+</menu>

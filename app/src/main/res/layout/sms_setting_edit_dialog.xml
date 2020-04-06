@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/blockContactLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <CheckBox
+            android:id="@+id/chkBlockContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/block_contact" />
+
+        <TextView
+            android:id="@+id/lblBlockForHowLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/block_for_how_long"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chkBlockContactForHowLong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/block_for_how_long_default" />
+
+            <EditText
+                android:id="@+id/txtBlockForHowLong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/clearLogLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blockContactLayout"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.50"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <CheckBox
+            android:id="@+id/chkClearSMSLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_sms_log" />
+
+        <TextView
+            android:id="@+id/lblClearSMSForHowLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_for_how_long"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chkClearSMSForHowLong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/clear_for_how_long_default" />
+
+            <EditText
+                android:id="@+id/txtClearSMSForHowLong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clearLogLayout"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btnDialogCancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:text="@string/btncancel" />
+
+        <Button
+            android:id="@+id/btnDialogContinue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:text="@string/btncontinue" />
+
+    </LinearLayout>
+
+</RelativeLayout>

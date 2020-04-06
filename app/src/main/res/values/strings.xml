@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">eContacts</string>
+    <string name="title_activity_contact_manager">Contact Manager</string>
+
+    <!-- email_destination_dialog -->
+    <string name="email_destination_confirmation">Email Confirmation:</string>
+    <string name="email_destination">Please enter email destination:</string>
+    <string name="btncancel">Cancel</string>
+    <string name="btncontinue">Continue</string>
+
+    <!-- activity_call_setting -->
+    <string name="title_activity_call_setting">Call Setting</string>
+    <string name="title_backup_selected_contacts">Selected Contacts</string>
+    <string name="title_backup_all_contacts">All Contacts</string>
+    <string name="title_add_number">Add Number</string>
+    <string name="title_add_contact">Add Contact</string>
+    <string name="title_clear_log">Clear Log</string>
+
+    <!-- activity_sms_setting -->
+    <string name="title_activity_sms_setting">SMS Setting</string>
+
+    <!-- activity_sms_setting -->
+    <string name="title_activity_about">About</string>
+
+    <!-- activity_sms_setting -->
+    <string name="title_activity_setting">Setting</string>
+
+    <!-- call_setting_edit_dialog -->
+    <string name="block_contact">Block Contact</string>
+    <string name="block_for_how_long">For How Long (Days)?</string>
+    <string name="block_for_how_long_default">Always</string>
+    <string name="clear_call_log">Clear Call Log</string>
+    <string name="clear_sms_log">Clear SMS Log</string>
+    <string name="clear_for_how_long">For How Long (Days)?</string>
+    <string name="clear_for_how_long_default">Always</string>
+
+    <!-- call_setting_delete_dialog -->
+    <string name="delete_confirmation">Are you sure you want to delete ?</string>
+    <string name="home_developed_by">BT IT Solutions (+251 911 84 20 52)</string>
+    <string name="btn_setting">Settings</string>
+    <string name="btn_contacts">Backup Contacts</string>
+    <string name="btn_calls">Manage Calls</string>
+
+    <!-- setting_dialog -->
+    <string name="setting_lblamharic">አማርኛ</string>
+    <string name="setting_lblenglish">English</string>
+    <string name="setting_btnSave">Save</string>
+
+    <!-- about_dialog -->
+    <string name="btn_about">About</string>
+    <string name="about_lblheader">BT IT Solutions</string>
+    <string name="About_lblOurServices">Our Services:</string>
+    <string name="About_lblConsultancy">  - IT Related Consultancy</string>
+    <string name="About_lblWebsite">  - Website Development</string>
+    <string name="About_lblMobile">  - Mobile Application Development</string>
+    <string name="About_lblTraining">  - Personal Programming Training</string>
+    <string name="About_lblOurAddress">Our Address:</string>
+    <string name="About_lblCity">  - Addis Ababa, Ethiopia</string>
+    <string name="About_lblArea">  - Mexico Area, K KARE Building</string>
+    <string name="About_lblMobileNumber">  - +251 911 84 20 52</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="splash_greeting">Welcome to eContacts</string>
+    <string name="splash_company">BT IT Solutions (+251 911 84 20 52)</string>
+</resources>
